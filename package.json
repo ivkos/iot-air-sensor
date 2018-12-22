@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "mqtt": "^2.15.2",
+    "nconf": "^0.10.0",
+    "sds011-client": "^1.0.1"
+  }
+}

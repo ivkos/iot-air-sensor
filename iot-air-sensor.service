@@ -1,0 +1,13 @@
+[Unit]
+Description=Air Quality Sensor
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node /opt/iot-air-sensor/index.js
+User=nobody
+Group=uucp
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
